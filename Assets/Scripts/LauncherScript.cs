@@ -14,6 +14,7 @@ public class LauncherScript : MonoBehaviour
 	private int birdsCreated = 0;
 	private bool isFiring = false;
 	private bool endGame = false;
+	Vector3 firingVector;
 
 	// Start is called before the first frame update
 	void Start()
@@ -32,16 +33,19 @@ public class LauncherScript : MonoBehaviour
 
 
 		//checking for mouseclick down to fire a bird
-		if ( /*<add code here>*/ )
+		if (Input.GetMouseButtonDown(0))
 		{
 			//get time when mouse is clicked
-			initialTime = Time.time;
-			isFiring = true; //this bool is here because when you spam click the mouse button, you can GetMouseButtonUp to trigger but not GetMouseButtonDown sometimes
-		}
+			Debug.Log("Mouse Button Down!");
+            initialTime = Time.time;
+            isFiring = true; //this bool is here because when you spam click the mouse button, you can GetMouseButtonUp to trigger but not GetMouseButtonDown sometimes
+        }
 
 		//when mouse button is released, create and fire a bird
-		else if ( /*<add code here>*/ )
+		else if (Input.GetMouseButtonUp(0))
 		{
+
+			Debug.Log("Mouse Button Up!");
 
 			//spawn the bird
 			birdsCreated++;
@@ -63,11 +67,11 @@ public class LauncherScript : MonoBehaviour
 			}
 
 			//firing the bird
-			//<add code here>	//define the firingVector we will use for Rigidbody.AddForce, remember the bird needs to go up and forward!
-			birdGameObject.GetComponent<Rigidbody>().AddForce(firingVector * firingForceMultiplier, ForceMode./*<add the correct Forcemode here>*/ );
+			firingVector = new Vector3(20, 20, 0);    //define the firingVector we will use for Rigidbody.AddForce, remember the bird needs to go up and forward!
+            birdGameObject.GetComponent<Rigidbody>().AddForce(firingVector * firingForceMultiplier, ForceMode.Impulse);
 
-			//if the player runs out of birds, end the game
-			if ( /*<add code here>*/ )
+            //if the player runs out of birds, end the game
+            if (maxBirdsToCreate == birdsCreated)
 			{
 				endGame = true;
 			}
