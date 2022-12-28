@@ -36,7 +36,6 @@ public class LauncherScript : MonoBehaviour
 		if (Input.GetMouseButtonDown(0))
 		{
 			//get time when mouse is clicked
-			Debug.Log("Mouse Button Down!");
             initialTime = Time.time;
             isFiring = true; //this bool is here because when you spam click the mouse button, you can GetMouseButtonUp to trigger but not GetMouseButtonDown sometimes
         }
@@ -44,8 +43,6 @@ public class LauncherScript : MonoBehaviour
 		//when mouse button is released, create and fire a bird
 		else if (Input.GetMouseButtonUp(0))
 		{
-
-			Debug.Log("Mouse Button Up!");
 
 			//spawn the bird
 			birdsCreated++;
