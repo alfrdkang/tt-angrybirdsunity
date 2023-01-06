@@ -306,6 +306,7 @@ GameObject:
   - component: {fileID: 95943282229431942}
   - component: {fileID: 8101016937281855749}
   - component: {fileID: 1474096323947226549}
+  - component: {fileID: -1361349079326923560}
   m_Layer: 0
   m_Name: Toon Chicken
   m_TagString: Untagged
@@ -382,6 +383,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.4342519, z: 0.45454383}
   m_Center: {x: 0, y: 0.2404269, z: -0.005662374}
+--- !u!114 &-1361349079326923560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311290861401530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5162bcc5f8f7e41b17e4eed35254c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1325880688823160
 GameObject:
   m_ObjectHideFlags: 0
