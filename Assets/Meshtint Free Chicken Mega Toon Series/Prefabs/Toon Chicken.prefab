@@ -309,7 +309,7 @@ GameObject:
   - component: {fileID: -1361349079326923560}
   m_Layer: 0
   m_Name: Toon Chicken
-  m_TagString: Untagged
+  m_TagString: Chicken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -395,6 +395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c5162bcc5f8f7e41b17e4eed35254c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeAlive: 5
 --- !u!1 &1325880688823160
 GameObject:
   m_ObjectHideFlags: 0
