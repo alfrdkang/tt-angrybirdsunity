@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1409
     height: 841
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 524
+  controlID: 16290
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 446
+  controlID: 16291
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 447
+  controlID: 16360
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -306,8 +306,10 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
+  m_SerializedViewNames:
+  - UnityEditor.DeviceSimulation.SimulatorWindow
+  m_SerializedViewValues:
+  - /Users/alfred/Documents/TinkerTanker/UnityCsharp/tt-angrybirdsunity/Library/PlayModeViewStates/2470d9d561d444ef98f83dd026c452e7
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -403,7 +405,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 36fbffff0a5a0000
+      m_ExpandedIDs: ac9effffc6b6fffff8efffff36fbffffda5b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -652,9 +654,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.6245975, y: 0.51095533, z: -0.19584982}
+    m_Target: {x: 6.5450983, y: 0.00000047683716, z: -0.515162}
     speed: 2
-    m_Value: {x: 5.6245975, y: 0.51095533, z: -0.19584982}
+    m_Value: {x: 6.5450983, y: 0.00000047683716, z: -0.515162}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -701,13 +703,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.1319822, y: 0.7000743, z: -0.13413726, w: 0.688828}
+    m_Target: {x: 0.15364116, y: 0.645472, z: -0.13475229, w: 0.7359464}
     speed: 2
-    m_Value: {x: 0.1319822, y: 0.7000743, z: -0.13413726, w: 0.688828}
+    m_Value: {x: 0.15364116, y: 0.64547193, z: -0.13475229, w: 0.7359464}
   m_Size:
-    m_Target: 5.7018223
+    m_Target: 5.115246
     speed: 2
-    m_Value: 5.6975493
+    m_Value: 5.115246
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -837,22 +839,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/alfred/Documents/TinkerTanker/UnityCsharp/tt-angrybirdsunity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 42}
-    m_SelectedIDs: 3a5b0000
-    m_LastClickedID: 23354
-    m_ExpandedIDs: 00000000265b0000365b000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 0a5d0000
+    m_LastClickedID: 23818
+    m_ExpandedIDs: 00000000f65c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -880,7 +882,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000265b000000ca9a3b
+    m_ExpandedIDs: 00000000f65c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -924,7 +926,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -994,7 +996,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 22960
+  m_LastSelectedObjectID: -30000
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52

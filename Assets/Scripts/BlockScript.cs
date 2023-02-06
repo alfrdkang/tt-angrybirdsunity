@@ -23,7 +23,6 @@ public class BlockScript : MonoBehaviour
         if (collision.collider.CompareTag("Chicken"))
         {
             AudioSource.PlayClipAtPoint(audioClip, transform.position, 1f);
-            Destroy(gameObject);
         }
     }
 }
